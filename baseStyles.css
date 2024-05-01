@@ -30,7 +30,7 @@ header h1, header h3, menu ul li a {
     color: whitesmoke;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: rgb(72, 107, 150);
 }
 
@@ -75,7 +75,6 @@ section {
 
 #home-image img {
     max-width: 100%;
-    height: 300px;
     border-radius: 50%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -330,4 +329,20 @@ input{
     #home-image {
         display: none; 
     }
+}
+
+.certification-div p{
+    margin-left: 110px;
+}
+
+.certification-div h4 {
+    margin-left: 110px;
+}
+
+.certification-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; 
 }
